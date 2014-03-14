@@ -1,0 +1,41 @@
+html, body {
+	height: 100%;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -155px;
+}
+
+.row {
+	max-width: 64.5rem;
+}
+
+ul.forecast {
+	margin-top: 1rem;
+}
+
+ul.day {
+	list-style-type: none;
+	margin: auto 0;
+	background: rgb(255, 255, 255);
+	border: 2px solid rgb(216, 216, 216);
+}
+.weekday {
+	font-weight: 700;
+	padding-bottom: 0.5rem;
+}
+
+footer {
+	height: 155px;
+	background: rgb(40, 40, 40);
+	color: rgb(255, 255, 255);
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
