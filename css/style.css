@@ -17,6 +17,13 @@ html, body {
 	max-width: 64.5rem;
 }
 
+.banner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
 ul.forecast {
 	margin-top: 1rem;
 }
