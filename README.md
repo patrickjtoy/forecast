@@ -1,5 +1,5 @@
-weatherForecast
-===============
+Simple Weather Forecaster
+=========================
 
 Simple weather forecasting app
 
