@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Weather Forecast</title>
+		<title>Simple Weather Forecaster</title>
 		<link rel="stylesheet" href="css/vendor/normalize.css" />
 		<link rel="stylesheet" href="css/vendor/foundation.min.css" />
 		<link rel="stylesheet" href="css/vendor/animate.css" />
@@ -13,14 +13,20 @@
 		<div class="wrapper">
 			<div class="panel">
 				<!-- GitHub Banner -->
-				<div class="show-for-large-up">
-					<a href="https://github.com/patrickjtoy/weatherForecast"><img src="http://goo.gl/o8ro3s" class="banner" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+				<div class="show-for-xlarge-up">
+					<a href="https://github.com/patrickjtoy/weatherForecast" target="_blank"><img src="http://goo.gl/o8ro3s" class="banner" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
 				</div>
 				<!-- System Message Container -->
 				<div class="row">
 					<div id="system-message-container" class="small-12 columns"></div>
 				</div>
 				<!-- Main Content -->
+				<div class="row">
+					<div class="title">
+						<h2 class="show-for-medium-up">Simple Weather Forecaster</h2>
+						<h3 class="show-for-small-down">Simple Weather Forecaster</h3>
+					</div>
+				</div>
 				<div class="row">
 					<form id="getForecast" name="getForecast">
 						<div class="row">
@@ -33,6 +39,7 @@
 						<div class="row">
 							<div class="small-7 columns text-left">
 								<input type="radio" id="unitImp" name="unit" class="unit" value="imperial" checked><label for="unitImp">Imperial</label>
+								<br class="show-for-small-down" />
 								<input type="radio" id="unitMet" name="unit" class="unit" value="metric"><label for="unitMet">Metric</label>
 							</div>
 							<div class="small-5 columns">
